@@ -2,5 +2,5 @@
 - Samantha Earl
 - George Cadel-Munoz
 - Jhun Chen
-- Khan 
+- Mohammad Aamir Khan 
 	
