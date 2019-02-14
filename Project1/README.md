@@ -1,6 +1,6 @@
 ## Members:
 - Samantha Earl
 - George Cadel-Munoz
-- Jhun Chen
+- Junyu Chen
 - Mohammad Aamir Khan 
 	
