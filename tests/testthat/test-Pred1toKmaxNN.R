@@ -15,3 +15,4 @@ test_that("knn computes same answer as R", {
   dist.mat <- t(x) - testx
   dist.vec <- sqrt(colSums(dist.mat * dist.mat))
 })
+
