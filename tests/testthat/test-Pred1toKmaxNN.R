@@ -9,7 +9,7 @@ test_that("knn computes same answer as R", {
   test.i <- i01[6]
   x <- zip.train[train.i, -1]
   y <- zip.train[train.i, 1]
-  testx <- zip.train[train.i, -1]
+  testx <- zip.train[test.i, -1]
   max.neighbors <- 4
   pred.vec <- knn(x, y, testx, max.neighbors)
   dist.mat <- t(x) - testx
