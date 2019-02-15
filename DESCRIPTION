@@ -4,7 +4,7 @@ Title: nearest neighbors
 Version: 2019.01.31
 Author: Samantha Earl, George Cadel-Munoz, Jhun Chen, Mohammad Aamir Khan
 Maintainer: Samantha Earl <sje74@nau.edu>
-Description: Project 1 for CS 499 (Machine Learning)
+Description: Project 1 for CS 499 (Machine Learning). Uses Manhattan NN algorithm.
 License: GPL-3
 RoxygenNote: 6.1.1
 LinkingTo: RcppEigen
