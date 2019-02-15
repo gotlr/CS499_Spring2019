@@ -2,6 +2,14 @@
 \n
 This is for running\n\n
 
+result.list <- .C("knn_interface", as.double(x), as.double(y), as.double(testx), as.integer(nrow(x)), as.integer(ncol(x)), as.integer(max.neighbors), predictions = double(max.neighbors), PACKAGE = "nearestNeighbors")
+\n
+Saving parameters to an object field\n
+
+result.list$predictions
+\n
+Accessing elements
+
 testx <- zip.train[6, -1]
 \n
 Set test variable\n
