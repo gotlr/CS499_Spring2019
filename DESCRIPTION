@@ -8,3 +8,4 @@ Description: Project 1 for CS 499 (Machine Learning)
 License: GPL-3
 RoxygenNote: 6.1.1
 LinkingTo: RcppEigen
+Encoding: UTF-8
