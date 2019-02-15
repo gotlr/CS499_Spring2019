@@ -1,0 +1,5 @@
+2/14/19
+-------
+> Added Console Commands for reference data loading
+> Added Dynamic Library to NAMESPACE
+> Changed Instances of "nearestNeighbors"/"NearestNeighbors"/etc. to match one-another
