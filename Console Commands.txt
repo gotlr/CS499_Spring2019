@@ -1,3 +1,27 @@
-.C("knn_interface", as.double(x), as.double(y), as.double(testx), as.integer(nrow(x)), as.integer(ncol(x)), as.integer(max.neighbors), double(max.neighbors), PACKAGE = "nearestNeighborsDemo")\n
+.C("knn_interface", as.double(x), as.double(y), as.double(testx), as.integer(nrow(x)), as.integer(ncol(x)), as.integer(max.neighbors), double(max.neighbors), PACKAGE = "nearestNeighbors")
+\n
 This is for running\n\n
 
+testx <- zip.train[6, -1]
+\n
+Set test variable\n
+
+y <- zip.train[1:5, 1]
+\n
+Set labels\n
+
+x <- zip.train[1:5, -1]
+\n
+Set matrix\n
+
+data(zip.train, package = "ElemStatLearn")
+\n
+For Getting data\n
+
+str(zip.train)
+\n
+For displaying data\n
+
+max.neighbors <- 3
+\n
+Total objects\n
