@@ -15,9 +15,13 @@ void knn_interface(
     const int *max_neighbors_ptr,
     double *test_predictions_ptr)
   {
-  int status = knn(train_inputs_ptr, train_label_ptr, 
-                   test_input_ptr, *n_features_ptr, *n_observations_ptr, 
-                   *max_neighbors_ptr, test_predictions_ptr);
+  int status = knn(train_inputs_ptr,
+                   train_label_ptr, 
+                   test_input_ptr,
+                   *n_observations_ptr,
+                   *n_features_ptr, 
+                   *max_neighbors_ptr,
+                   test_predictions_ptr);
   
   if(status != 0)
     {
