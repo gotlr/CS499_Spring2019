@@ -1,0 +1,3 @@
+.C("knn_interface", as.double(x), as.double(y), as.double(testx), as.integer(nrow(x)), as.integer(ncol(x)), as.integer(max.neighbors), double(max.neighbors), PACKAGE = "nearestNeighborsDemo")\n
+This is for running\n\n
+
