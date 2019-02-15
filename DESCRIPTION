@@ -9,4 +9,8 @@ License: GPL-3
 RoxygenNote: 6.1.1
 LinkingTo: RcppEigen
 Encoding: UTF-8
+<<<<<<< HEAD
 Suggests: ElemStatLearn
+=======
+Suggests: ElemStatLearn
+>>>>>>> b194b9e74f095505d5e077c5cb33571baa86ce84

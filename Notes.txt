@@ -3,3 +3,4 @@
 > Added Console Commands for reference data loading
 > Added Dynamic Library to NAMESPACE
 > Changed Instances of "nearestNeighbors"/"NearestNeighbors"/etc. to match one-another
+> In the .R file, you can run lines of code from documentation by clicking on the line you want to run and hit CTRL + Enter.
