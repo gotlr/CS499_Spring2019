@@ -9,4 +9,9 @@ License: GPL-3
 RoxygenNote: 6.1.1
 LinkingTo: RcppEigen
 Encoding: UTF-8
-Suggests: ElemStatLearn, testthat
+Suggests: 
+    ElemStatLearn,
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
