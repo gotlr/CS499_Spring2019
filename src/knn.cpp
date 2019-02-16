@@ -42,7 +42,7 @@ int knn(
   /// Using Manhattan Distance => sum(xi-yi)
   // https://techblogmu.blogspot.com/2017/03/find-manhattan-distance-l1-norm-and.html
   double total = 0.0;
-  for( int model_i = 0; model_i < max_neighbors; model_i++ )
+  for( int model_i = 1; model_i < max_neighbors; model_i++ )
   {
     int neighbors = model_i + 1;
     int row_i = sorted_index_vec( model_i );
