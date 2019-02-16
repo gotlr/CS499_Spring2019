@@ -1,0 +1,24 @@
+---
+title: "Project 1 Problems"
+author: "Samantha Earl, George Cadel-Munoz"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+We've had several problems with this project that we would like to include with our report.
+
+- Little to no team communication. Sam and George were the only contributers to this project. We would try to communicate with the other members of the team several times but would never get messages/emails back.
+
+- We tried following the screencasts originally to try and learn R. However we would continuously run into problems and would get errors and test failures. This has caused us to lose too much time and we could not implement all of the requirements. The Manhattan/L1 distance was attempted in the knn.cpp file.
+
