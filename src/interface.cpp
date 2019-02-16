@@ -5,6 +5,17 @@
 #include "knn.h"
 #include <R.h>
 #include <R_ext/Rdynload.h>
+#include "mymean.h"
+
+void my_mean_interface(int *data_ptr, int *data_count, double *output_ptr){
+  int status = my_mean_C(data_ptr, *data_count, output_ptr);
+  if(status == MY_MEAN_ERROR_NO_DATA){
+    error("no data");
+  }
+  if(status != 0){
+    error("unrecognized error ", status);
+  }
+}
 
 void knn_interface(
     const double *train_inputs_ptr,
@@ -31,6 +42,7 @@ void knn_interface(
 
 R_CMethodDef cMethods[] = {
   {"knn_interface", (DL_FUNC) &knn_interface, 7},
+  {"my_mean_interface", (DL_FUNC) &my_mean_interface, 3},
   {NULL, NULL, 0}
 };
 
