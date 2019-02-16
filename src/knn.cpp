@@ -22,7 +22,7 @@ int knn(
   Eigen::VectorXd dist_vec(n_observations); // Uses dynamic memory allocation
   Eigen::VectorXi sorted_index_vec(n_observations); // Vec of int
   
-  for( int i = 1; i < n_observations; i++ )
+  for( int i = 0; i < n_observations; i++ )
   {
     dist_vec(i) = 
       (train_inputs_mat.row(i).transpose() - test_input_vec).norm();
@@ -42,7 +42,7 @@ int knn(
   /// Using Manhattan Distance => sum(xi-yi)
   // https://techblogmu.blogspot.com/2017/03/find-manhattan-distance-l1-norm-and.html
   double total = 0.0;
-  for( int model_i = 1; model_i < max_neighbors; model_i++ )
+  for( int model_i = 0; model_i < max_neighbors; model_i++ )
   {
     int neighbors = model_i + 1;
     int row_i = sorted_index_vec( model_i );
