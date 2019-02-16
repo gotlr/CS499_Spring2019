@@ -1,6 +1,7 @@
 #' K nearest neighbors alogrithm
 #'
 #' An R function that wraps the nearest neighbor C++ code
+#' 
 #' @param x.mat numeric train feature matrix [ n x p ]
 #' @param y.vec numeric train label vector [n], either all 
 #' 0/1 for binary classification, or other real numbers for
@@ -21,7 +22,7 @@
 #' y <- zip.train[train.i, 1]
 #' testx <- zip.train[test.i, -1]
 #' knn(x, y, testx, 3)
-#' zip.train[test.i]
+#' zip.train[test.i, 1]
 knn <- function(x.mat, y.vec, testx.vec, max.neighbors )
 {
   result.list <- .C("knn_interface",

@@ -33,5 +33,5 @@ x <- zip.train[train.i, -1]
 y <- zip.train[train.i, 1]
 testx <- zip.train[test.i, -1]
 knn(x, y, testx, 3)
-zip.train[test.i]
+zip.train[test.i, 1]
 }
