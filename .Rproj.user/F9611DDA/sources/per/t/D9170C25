@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550211601676.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2827648276",
+    "id" : "D9170C25",
+    "lastKnownWriteTime" : 1550214772,
+    "last_content_update" : 1550214772788,
+    "path" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/src/interface.cpp",
+    "project_path" : "src/interface.cpp",
+    "properties" : {
+        "cursorPosition" : "17,18",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/src/interface.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "knn_interface(const double *, const double *, const double *, const int *, const int *, const int *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@knn_interface#*1d#S0_#S0_#*1I#S1_#S1_#*d#"
+            }
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/src/interface.cpp",
+        "file_last_write" : 1550214772
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/src/knn.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "knn(const double *, const double *, const double *, const int, const int, const int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@knn#*1d#S0_#S0_#1I#1I#1I#*d#"
+            }
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/src/knn.cpp",
+        "file_last_write" : 1550281543
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/src/knn.h",
+        "file_last_write" : 1550214756
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550280054801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2315561554",
+    "id" : "41123D86",
+    "lastKnownWriteTime" : 1550280073,
+    "last_content_update" : 1550280073799,
+    "path" : "D:/NAU/Senior Year/CS499-MachineLearning/Branch/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+        "cursorPosition" : "1,30",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}
