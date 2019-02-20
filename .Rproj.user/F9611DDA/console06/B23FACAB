@@ -1,0 +1,99 @@
+[0m[0K]0;:/d/NAU/Senior Year/CS499-MachineLearning/Repository[?25l
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-MachineLearning/Repository[0m[0K
+$[0K[3G[?25h[?25l[1A[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-MachineLea[0Kr
+ning/Repository[0K
+[0m$[0K[3G[?25h[?25l$ g[0K[?25h+[0K+[0K[7G[?25l$ g++ -[0K[?25h-[0Kv[0Ke[0Kr[0Kb[0Ko[0Ks[0Ke[0K[17G[?25l$ g++ --verbose .[0K[?25h.[0K.[0K[?25l
+bash: g++: command not found[0K
+[0K[?25h[?25l
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-MachineLea[0Kr
+ning/Repository[0m[0K
+$[0K[3G[?25h[?25l$ g++ --verbose ...[0K[?25h[?25l$ g++ --verbose ..[0K[?25h[?25l$ g++ --verbose .[0K[?25h[?25l$ g++ --verbose[0K[17G[?25h[16G[?25l
+bash: g++: command not found[0K
+[0K[?25h[?25l
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-MachineLea[0Kr
+ning/Repository[0m[0K
+$[0K[3G[?25h[?25l
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-MachineLea[0Kr
+ning/Repository[0m[0K
+$[0K[3G[?25h[?25l[16A[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0K
+[0m$ g++ --verbose ...[0K
+bash: g++: command not found[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0K
+[0m$ g++ --verbose[0K
+bash: g++: command not found[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0K
+[0m$[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0K
+[0m$[0K[3G[?25h[?25l$ i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K[?25l
+[0K[?25hinstall: missing file operand[0K[?25l
+Try 'install --help' for more information.[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0m[0K
+$[0K[3G[?25h[?25l$ i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K)[0K[20G[?25l$ install.packages(N)[0K[21G[?25h[?25l$ install.packages(Ne)[0K[22G[?25h[?25l$ install.packages(Nei)[0K[23G[?25h[?25l$ install.packages(Ne)[0K[22G[?25h[?25l$ install.packages(Nea)[0K[23G[?25h[?25l$ install.packages(Near)[0K[24G[?25h[?25l$ install.packages(Neare)[0K[25G[?25h[?25l$ install.packages(Neares)[0K[26G[?25h[?25l$ install.packages(Nearest)[0K[27G[?25h[?25l$ install.packages(NearestN)[0K[28G[?25h[?25l$ install.packages(NearestNe)[0K[29G[?25h[?25l$ install.packages(NearestNei)[0K[30G[?25h[?25l$ install.packages(NearestNeig)[0K[31G[?25h[?25l$ install.packages(NearestNeigh)[0K[32G[?25h[?25l$ install.packages(NearestNeighb)[0K[33G[?25h[?25l$ install.packages(NearestNeighbo)[0K[34G[?25h[?25l$ install.packages(NearestNeighbor)[0K[35G[?25h[?25l$ install.packages(NearestNeighbors)[0K[36G[?25h[?25l$ install.packages(NearestNeighbors')[0K[37G[?25h[36G[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[25G[24G[23G[22G[21G[20G[?25l$ install.packages('NearestNeighbors')[0K[21G[?25h[22G[23G[24G[25G[26G[27G[28G[29G[30G[31G[32G[33G[34G[35G[36G[37G[38G[?25l$ install.packages('NearestNeighbors',)[0K[39G[?25h[?25l$ install.packages('NearestNeighbors', )[0K[40G[?25h[?25l$ install.packages('NearestNeighbors', d)[0K[41G[?25h[?25l$ install.packages('NearestNeighbors', de)[0K[42G[?25h[?25l$ install.packages('NearestNeighbors', dep)[0K[43G[?25h[?25l$ install.packages('NearestNeighbors', depe)[0K[44G[?25h[?25l$ install.packages('NearestNeighbors', depen)[0K[45G[?25h[?25l$ install.packages('NearestNeighbors', depend)[0K[46G[?25h[?25l$ install.packages('NearestNeighbors', depende)[0K[47G[?25h[?25l$ install.packages('NearestNeighbors', dependen)[0K[48G[?25h[?25l$ install.packages('NearestNeighbors', dependenc)[0K[49G[?25h[?25l$ install.packages('NearestNeighbors', dependenci)[0K[50G[?25h[?25l$ install.packages('NearestNeighbors', dependencie)[0K[51G[?25h[?25l$ install.packages('NearestNeighbors', dependencies)[0K[52G[?25h[?25l$ install.packages('NearestNeighbors', dependencies )[0K[53G[?25h[?25l$ install.packages('NearestNeighbors', dependencies  )[0K[54G[?25h[?25l$ install.packages('NearestNeighbors', dependencies  =[0K)
+[0K[?25h[?25l)[0K[1G[?25h[0K$ install[0K.packages('NearestNeighbors', depenc)[0K[?25l$ install.packages('NearestNeighbors', depenc[0K[?25h[?25l$ install.packages('NearestNeighbors', depen[0K[?25h[?25l$ install.packages('NearestNeighbors', depe[0K[?25h[?25l$ install.packages('NearestNeighbors', dep[0K[?25h[?25l$ install.packages('NearestNeighbors', de[0K[?25h[?25l$ install.packages('NearestNeighbors', d[0K[?25h[?25l$ install.packages('NearestNeighbors',[0K[40G[?25h[39G[?25l$ install.packages('NearestNeighbors'[0K[?25h[?25l$ install.packages('NearestNeighbors[0K[?25h[?25l$ install.packages('NearestNeighbor[0K[?25h[?25l$ install.packages('NearestNeighbo[0K[?25h[?25l$ install.packages('NearestNeighb[0K[?25ho[0Kr[0Ks[0K'[0K,[0K[40G[?25l$ install.packages('NearestNeighbors', d[0K[?25he[0Kp[0Ke[0Kn[0Kd[0Ke[0Kn[0Kc[0Ki[0Ke[0Ks[0K-[0K[?25l$ install.packages('NearestNeighbors', dependencies[0K[?25h=[0KT[0Kr[0K[0Ku[?25l
+[0K[?25he[0K,[0K[4G[?25le, r[0K[?25he[0Kp[0Ko[0Ks[0Ke[0K[?25le, repos[0K[?25h[?25le, repo[0K[?25hs[0K=[0K"[0K[?25le, repos=[0K[?25h'[0K'[0K)[0K[12G[11G[10G[11G[?25le, repos='r')[0K[12G[?25h[?25le, repos='re')[0K[13G[?25h[?25le, repos='rep')[0K[14G[?25h[?25le, repos='repo')[0K[15G[?25h[?25le, repos='repos')[0K[16G[?25h[?25le, repos='repos=')[0K[17G[?25h[?25le, repos='repos='')[0K[18G[?25h[?25le, repos='repos='h')[0K[19G[?25h[?25le, repos='repos='he')[0K[20G[?25h[?25le, repos='repos='hee')[0K[21G[?25h[?25le, repos='repos='heep')[0K[22G[?25h[?25le, repos='repos='heep:')[0K[23G[?25h[?25le install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='heep:/[0K[?25h/[0K[?25l
+')[0K[1G[?25h[?25lc')[0K[2G[?25h[?25lcr')[0K[3G[?25h[?25lcra')[0K[4G[?25h[?25lcran')[0K[5G[?25h[?25lcran.')[0K[6G[?25h[?25lcran.r')[0K[7G[?25h[?25lcran.rs')[0K[8G[?25h[?25lcran.rst')[0K[9G[?25h[?25lcran.rstu')[0K[10G[?25h[?25lcran.rstud')[0K[11G[?25h[?25lcran.rstudi')[0K[12G[?25h[?25lcran.rstudio')[0K[13G[?25h[?25lcran.rstudio.')[0K[14G[?25h[?25lcran.rstudio.c')[0K[15G[?25h[?25lcran.rstudio.co')[0K[16G[?25h[?25lcran.rstudio.com')[0K[17G[?25h[?25lcran.rstudio.com/')[0K[18G[?25h[?25l
+bash: syntax error near unexpected token `'NearestNeig[0Kh
+bors','[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0m[0K
+$[0K[3G[?25h[?25l$ install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='heep://[0K
+cran.rstudio.com/')[0K[?25h[?25l[1A$ install[0K
+[0K[1A[10G[?25h[?25l$ g++ --verbose[0K
+[0K[1A[16G[?25h[?25l$ g++ --verbose ...[0K
+[0K[1A[20G[?25h[?25l$ grbose ...[0K
+[0K[1A[20G[?25h[?25l$ git status[0K
+[0K[1A[13G[?25h[?25l$ git pull origin master[0K
+[0K[1A[25G[?25h[?25l
+
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0m[0K
+$[0K[3G[?25h[?25l$ install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='heep://[0K
+cran.rstudio.com/')[0K[?25h[?25l[1A$ install[0K
+[0K[1A[10G[?25h[?25l$ install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='heep://[0K[1A[10G[?25h[?25l
+
+cran.rstudio.com/')[0K[?25h[19G[18G[17G[16G[15G[14G[13G[12G[11G[10G[9G[8G[7G[6G[5G[4G[3G[2G[1G[?25l[1A$ install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='heep:/[0K[?25h[23G[22G[21G[20G[?25l$ install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='h[0K[?25h[?25l$ install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='[0K[?25h[?25le install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='t[0K[?25h[?25le install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='tt[0K[?25h[?25le install.packages('NearestNeighbors', dependencies=Tr[0Ku
+e, repos='repos='ttp[0K[?25h[?25l
+[0K
+bash: syntax error near unexpected token `'NearestNeig[0Kh
+bors','[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0m[0K
+$[0K[3G[?25h[?25l$ i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K)[0K[20G[?25l$ install.packages(')[0K[21G[?25h[?25l$ install.packages('')[0K[22G[?25h[21G[?25l$ install.packages('N')[0K[22G[?25h[?25l$ install.packages('Ne')[0K[23G[?25h[?25l$ install.packages('Nea')[0K[24G[?25h[?25l$ install.packages('Near')[0K[25G[?25h[?25l$ install.packages('Neare')[0K[26G[?25h[?25l$ install.packages('Neares')[0K[27G[?25h[?25l$ install.packages('Nearest')[0K[28G[?25h[?25l$ install.packages('NearestN')[0K[29G[?25h[?25l$ install.packages('NearestNe')[0K[30G[?25h[?25l$ install.packages('NearestNei')[0K[31G[?25h[?25l$ install.packages('NearestNeig')[0K[32G[?25h[?25l$ install.packages('NearestNeigh')[0K[33G[?25h[?25l$ install.packages('NearestNeighb')[0K[34G[?25h[?25l$ install.packages('NearestNeighbo')[0K[35G[?25h[?25l$ install.packages('NearestNeighbor')[0K[36G[?25h[?25l$ install.packages('NearestNeighbors')[0K[37G[?25h[38G[?25l$ install.packages('NearestNeighbors',)[0K[39G[?25h[?25l$ install.packages('NearestNeighbors', )[0K[40G[?25h[?25l$ install.packages('NearestNeighbors', d)[0K[41G[?25h[?25l$ install.packages('NearestNeighbors', de)[0K[42G[?25h[?25l$ install.packages('NearestNeighbors', dep)[0K[43G[?25h[?25l$ install.packages('NearestNeighbors', depe)[0K[44G[?25h[?25l$ install.packages('NearestNeighbors', depen)[0K[45G[?25h[?25l$ install.packages('NearestNeighbors', depend)[0K[46G[?25h[?25l$ install.packages('NearestNeighbors', depende)[0K[47G[?25h[?25l$ install.packages('NearestNeighbors', dependen)[0K[48G[?25h[?25l$ install.packages('NearestNeighbors', dependenc)[0K[49G[?25h[?25l$ install.packages('NearestNeighbors', dependencie)[0K[51G[?25h[?25l$ install.packages('NearestNeighbors', dependencies)[0K[52G[?25h[?25l$ install.packages('NearestNeighbors', dependencies=)[0K[53G[?25h[?25l$ install.packages('NearestNeighbors', dependencies=T)[0K[54G[?25h[?25l$ install.packages('NearestNeighbors', dependencies=TR[0K)
+[0K[?25h[?25lU)[0K[2G[?25h[?25lUE)[0K[3G[?25h[?25lUE,)[0K[4G[?25h[?25lUE,r)[0K[5G[?25h[?25lUE,rp)[0K[6G[?25h[?25lUE,r)[0K[5G[?25h[?25lUE,re)[0K[6G[?25h[?25lUE,rep)[0K[7G[?25h[?25lUE,repo)[0K[8G[?25h[?25lUE,repos)[0K[9G[?25h[?25lUE,repos=)[0K[10G[?25h[?25lUE,repos=')[0K[11G[?25h[?25lUE,repos='')[0K[12G[?25h[11G[?25lUE,repos='h')[0K[12G[?25h[?25lUE,repos='ht')[0K[13G[?25h[?25lUE,repos='htt')[0K[14G[?25h[?25lUE,repos='htte')[0K[15G[?25h[?25lUE,repos='htt')[0K[14G[?25h[?25lUE,repos='http')[0K[15G[?25h[?25lUE,repos='htt')[0K[14G[?25h[?25lUE,repos='http')[0K[15G[?25h[?25lUE,repos='http:')[0K[16G[?25h[?25lUE,repos='http:/')[0K[17G[?25h[?25lUE,repos='http://')[0K[18G[?25h[?25lUE,repos='http://c')[0K[19G[?25h[?25lUE,repos='http://cr')[0K[20G[?25h[?25lUE,repos='http://cra')[0K[21G[?25h[?25lUE,repos='http://cran')[0K[22G[?25h[?25lUE,repos='http://cran.')[0K[23G[?25h[?25lUE,repos='http://cran.r')[0K[24G[?25h[?25lU install.packages('NearestNeighbors', dependencies=TR[0KU
+E,repos='http://cran.rs[0K[?25ht[0K[?25l
+')[0K[1G[?25h[?25l[1A$ install.packages('NearestNeighbors', dependencies=TR[0KU
+E install.packages('NearestNeighbors', dependencies=TR[0KU
+E,repos='http://cran.rs[0K[?25ht[0K[?25l
+')[0K[1G[?25h[?25lu')[0K[2G[?25h[?25lud')[0K[3G[?25h[?25ludi')[0K[4G[?25h[?25ludio')[0K[5G[?25h[?25ludio/')[0K[6G[?25h[?25ludio')[0K[5G[?25h[?25ludio.')[0K[6G[?25h[?25ludio.c')[0K[7G[?25h[?25ludio.co')[0K[8G[?25h[?25ludio.com')[0K[9G[?25h[?25ludio.com/')[0K[10G[?25h[?25l
+bash: syntax error near unexpected token `'NearestNeig[0Kh
+bors','[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0m[0K
+$[0K[3G[?25h[?25l$ i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K"[0K[?25l$ install.packages([0K[?25h)[0K[20G[?25l$ install.packages(")[0K[21G[?25h[?25l$ install.packages("R)[0K[22G[?25h[?25l$ install.packages("Rc)[0K[23G[?25h[?25l$ install.packages("Rcc)[0K[24G[?25h[?25l$ install.packages("Rccp)[0K[25G[?25h[?25l$ install.packages("RccpE)[0K[26G[?25h[?25l$ install.packages("RccpEi)[0K[27G[?25h[?25l$ install.packages("RccpEig)[0K[28G[?25h[?25l$ install.packages("RccpEige)[0K[29G[?25h[?25l$ install.packages("RccpEigen)[0K[30G[?25h[?25l$ install.packages("RccpEigen")[0K[31G[?25h[?25l
+bash: syntax error near unexpected token `"RccpEigen"'[0K
+[0K
+[0;32mkagom@DESKTOP-1RE2D49 [0;35m [0;33m/d/NAU/Senior Year/CS499-Machin[0Ke
+Learning/Repository[0m[0K
+$[0K[3G[?25h

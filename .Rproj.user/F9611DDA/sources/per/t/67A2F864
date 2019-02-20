@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550298284323.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4137055832",
+    "id" : "67A2F864",
+    "lastKnownWriteTime" : 1550300815,
+    "last_content_update" : 1550300815559,
+    "path" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/vignettes/nn-report.Rmd",
+    "project_path" : "vignettes/nn-report.Rmd",
+    "properties" : {
+        "cursorPosition" : "56,42",
+        "scrollLine" : "36"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

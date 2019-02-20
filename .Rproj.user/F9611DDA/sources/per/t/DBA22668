@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550284402120.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "391283079",
+    "id" : "DBA22668",
+    "lastKnownWriteTime" : 1550298216,
+    "last_content_update" : 1550298216,
+    "path" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/mymean.h",
+    "project_path" : "src/mymean.h",
+    "properties" : {
+        "cursorPosition" : "2,31",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "h"
+}

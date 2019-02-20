@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550284768388.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1198407465",
+    "id" : "6956AD6",
+    "lastKnownWriteTime" : 1550298216,
+    "last_content_update" : 1550298216,
+    "path" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/Makevars",
+    "project_path" : "src/Makevars",
+    "properties" : {
+        "cursorPosition" : "2,15",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "makefile"
+}

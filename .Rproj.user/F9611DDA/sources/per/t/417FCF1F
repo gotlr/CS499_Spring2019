@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550114400946.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3226817454",
+    "id" : "417FCF1F",
+    "lastKnownWriteTime" : 1550298520,
+    "last_content_update" : 1550298520127,
+    "path" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/knn.cpp",
+    "project_path" : "src/knn.cpp",
+    "properties" : {
+        "cursorPosition" : "42,72",
+        "scrollLine" : "16"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}

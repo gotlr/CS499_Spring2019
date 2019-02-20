@@ -1,0 +1,68 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/interface.cpp",
+                "kind" : 6,
+                "line" : 10,
+                "name" : "my_mean_interface(int *, int *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_mean_interface#*I#S0_#*d#"
+            },
+            {
+                "column" : 6,
+                "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/interface.cpp",
+                "kind" : 6,
+                "line" : 20,
+                "name" : "knn_interface(const double *, const double *, const double *, const int *, const int *, const int *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@knn_interface#*1d#S0_#S0_#*1I#S1_#S1_#*d#"
+            }
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/interface.cpp",
+        "file_last_write" : 1550298216
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/knn.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "knn(const double *, const double *, const double *, const int, const int, const int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@knn#*1d#S0_#S0_#1I#1I#1I#*d#"
+            }
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/knn.cpp",
+        "file_last_write" : 1550298520
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/knn.h",
+        "file_last_write" : 1550282243
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/my_mean.cpp",
+                "kind" : 6,
+                "line" : 3,
+                "name" : "my_mean_C(int *, int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_mean_C#*I#I#*d#"
+            }
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/my_mean.cpp",
+        "file_last_write" : 1550298216
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "D:/NAU/Senior Year/CS499-MachineLearning/Repository/src/mymean.h",
+        "file_last_write" : 1550298216
+    }
+]
