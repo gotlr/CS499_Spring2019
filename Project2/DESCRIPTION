@@ -1,7 +1,7 @@
 Package: linear_models
 Title: Linear Models For Regressions and Binary Classification
 Version: 2019.02.19
-Author: Samantha Earl, George Cadel-Munoz
+Author: Samantha Earl, George Cadel-Munoz, Jhun Chen, Mohammad Aamir Khan
 Maintainer: Samantha Earl <sje74@nau.edu>
 Description: Project 2 for CS 499 (Machine Learning). Demonstrate
 both linear models with early stopping regularization and linear
