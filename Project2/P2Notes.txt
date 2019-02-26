@@ -1,0 +1,101 @@
+(Reading Page 13 of ESLII)
+
+Linear Models with Early Stopping Regularization
+------------------------------------------------
+LMSquareLossIterations
+
+
+LMLogisticLossIterations
+
+Required:
+	Inputs:
+		X.mat
+		y.vec
+		max.iterations
+		step.size
+
+	Outputs:
+		W.mat
+
+
+LMSquareLossEarlyStoppingCV
+
+
+LMLogisticLossEarlyStoppingCV
+
+Required:
+	Inputs:
+		X.mat
+		y.vec
+		fold.vec
+		max.iterations
+
+	Outputs:
+		mean.validation.loss
+		mean.train.loss.vec
+		selected.steps
+		weight.vec
+		predict(testX.mat)
+
+
+Linear Models with L2 Regularization
+-------------------------------------
+LMSquareLossL2
+
+
+LMLogisticLossL2
+
+Required:
+	Inputs:
+		X.scaled.mat
+		y.vec
+		penalty
+		opt.thresh
+		initial.weight.vec
+		step.size
+
+	Outputs:
+		weight.vec
+
+
+LMSquareLossL2penalties
+
+
+LMLogisticLossL2penalties
+
+Required:
+	Inputs:
+		X.mat
+		y.vec
+		penalty.vec
+
+	Outputs:
+		W.mat
+
+
+LMSquareLossL2CV
+
+
+LMLogisticLossL2CV
+
+Required:
+	Inputs:
+		X.mat
+		y.vec
+		fold.vec
+		penalty.vec
+
+	Outputs:
+		mean.validation.loss
+		mean.train.loss.vec
+		penalty.vec
+		selected.penalty
+		weight.vec
+		predict(testX.mat)
+
+
+
+
+
+
+
