@@ -7,15 +7,18 @@ int LMSquareLossIterations(
   const int step.size
 ){
   // Code
+  
+  return 0;
 }
 
 int LMLogisticLossIterations(
-    const int X.mat,
+    const int Xmat,
     const int y.vec,
     const int max.iterations,
     const int step.size
 ){
   // Code
+  return 0;
 }
 
 int LMSquareLossIterationsCV(
@@ -25,6 +28,7 @@ int LMSquareLossIterationsCV(
     const int max.iterations
 ){
   // Code
+  return 0;
 }
 
 int LMLogisticLossIterationsCV(
@@ -34,6 +38,7 @@ int LMLogisticLossIterationsCV(
     const int max.iterations
 ){
   // Code
+  return 0;
 }
 
 int LMSquareLossL2(
@@ -46,6 +51,7 @@ int LMSquareLossL2(
     
 ){
   // code
+  return 0;
 }
 
 int LMLogisticLossL2(
@@ -58,6 +64,7 @@ int LMLogisticLossL2(
   
 ){
   // code
+  return 0;
 }
 
 int LMSquareLossL2penalties(
@@ -66,6 +73,7 @@ int LMSquareLossL2penalties(
     const int penalty.vec
 ){
   // code
+  return 0;
 }
 
 int LMLogisticLossL2penalties(
@@ -75,4 +83,5 @@ int LMLogisticLossL2penalties(
 )
 {
   // code
+  return 0;
 }
