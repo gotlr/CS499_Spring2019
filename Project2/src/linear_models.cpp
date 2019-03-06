@@ -35,3 +35,44 @@ int LMLogisticLossIterationsCV(
 ){
   // Code
 }
+
+int LMSquareLossL2(
+    const int x.scaled.mat,
+    const int y.vec,
+    const int penalty,
+    const int opt.thresh,
+    const int initial.weight.vec,
+    const int step.size
+    
+){
+  // code
+}
+
+int LMLogisticLossL2(
+    const int x.scaled.mat,
+    const int y.vec,
+    const int penalty,
+    const int opt.thresh,
+    const int initial.weight.vec,
+    const int step.size
+  
+){
+  // code
+}
+
+int LMSquareLossL2penalties(
+    const int x.mat,
+    const int y.vec,
+    const int penalty.vec
+){
+  // code
+}
+
+int LMLogisticLossL2penalties(
+    const int x.mat,
+    const int y.vec,
+    const int penalty.vec
+)
+{
+  // code
+}
