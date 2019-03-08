@@ -19,12 +19,13 @@ LMSquareLossEarlyStoppingCV <-
     if (!all(is.integer(fold.vec), is.vector(fold.vec))) {
       stop("fold.vec must be assigned before input and it must be a integer vector")
     }
-    fold.number=4
-    fold.split=sample(1:fold.number,length(fold.vec),replace=T)
+    #fold.number=4
+    #fold.split=sample(1:fold.number,length(fold.vec),replace=T)
+    max.fold <- length(fold.vec)
     validation.loss.mat <-matrix(0, fold.number, max.iteration)
     train.loss.mat <- matrix(0, n.folds, max.iteration)#initial the condition
     
-    for (i in fold.number){
+    for (i in max.fold){
       train.index <- which(fold.split !=i)
       validation.index <- which(fold.split == i)
       w.mat <-LMSquareLossIterations(x.mat[train.index, ], y.vec[train.index, ], max.iterations,step.size = 0.5)
@@ -60,7 +61,7 @@ LMSquareLossEarlyStoppingCV <-
   }
 
     
-  }
+  
 
 
 LMLogisticLossEarlyStoppingCV <-

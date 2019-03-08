@@ -23,13 +23,15 @@ LMSquareLossL2penalties <- function(X.mat, y.vec, penalty.vec){
   x.mean <- colMeans(x.mat) #make sure to compute a scaled input matrix, which has mean=0 and sd=1 for each column
   x.sd <- sqrt(rowSums((t(x.mat) - x.mean) ^ 2)/train.number)
   x.scaled <- t((t(x.mat) -x.mean) / x.sd)
-  w.mat=matrix(rep(0,feature.number))
+  w.mat.temp=matrix(rep(0,feature.number))
   w.vec=matrix(rep(0,feature.number))
   for(iteration in (1:NCOL(penalty.vec))){# calling LM__LossL2 to get the (scaled) optimal weight vector for each.
   optimal.weight.vec <- LMSquareLossL2(x.scaled,y.vec,penalty=penalty.vec[index],initial.weight.vec=w.vec)#the initial condition of w is 0 for the first penalty?
-  w.mat=cbind(w.mat,optimal.weight.vec)
+  w.mat.temp=cbind(w.mat,optimal.weight.vec)
   w.vec <- optimal.weight.vec#use the optimal solution for the previous penalty value as the next initial.weight.vec (faster).
   }
+  intercept <- t(w.mat.temp)%*%x.sd%*%x.mean #m*p*p*p*P*1=m*1
+  w.mat <- cbind(t(intercept),t(t(w.mat.temp)%*%x.sd))
   return(w.mat)
   
   
@@ -67,7 +69,8 @@ LMSquareLossL2penalties <- function(X.mat, y.vec, penalty.vec){
     w.mat=cbind(w.mat,optimal.weight.vec)
     w.vec <- optimal.weight.vec#use the optimal solution for the previous penalty value as the next initial.weight.vec (faster).
   }
+  intercept <- t(w.mat.temp)%*%x.sd%*%x.mean #m*p*p*p*P*1=m*1
+  w.mat <- cbind(t(intercept),t(t(w.mat.temp)%*%x.sd))
   return(w.mat)
-  
   
 }

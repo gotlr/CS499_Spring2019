@@ -10,15 +10,22 @@ LMSquareLossL2CV <- function(X.mat, y.vec, fold.vec, penalty.vec){
   if (!all(is.integer(fold.vec), is.vector(fold.vec))) {
     stop("fold.vec must be assigned before input and it must be a integer vector")
   }
+  penalty.descending <- function(penalty.vec){
+    if.decending <- all(diff(penalty.vec)<0)
+    return(if.decending)
+    
+  }
   
-  if (!all(is.vector(penalty.vec),is.numeric(penalty.vec),penalty.vec >= 0 )) {
+  if (!all(is.vector(penalty.vec),is.numeric(penalty.vec),penalty.vec >= 0,is.decending(penalty.vec))) {
     stop("penalty.vec must be a non-negative decreasing numeric vector")
   }
   
-  fold.number=4
+  #fold.number=4
+  #fold.split=sample(1:fold.number,length(fold.vec),replace=T)
+  max.fold <- length(fold.vec)
   validation.loss.mat <-matrix(0, fold.number, max.iteration)
   train.loss.mat <- matrix(0, n.folds, max.iteration)#initial the condition
-  for (i in fold.number){
+  for (i in max.fold){
     train.index <- which(fold.split !=i)
     validation.index <- which(fold.split == i)
     w.mat <-LMSquareLossL2penalties(x.mat[train.index, ], y.vec[train.index, ], penalty.vec)
@@ -71,6 +78,7 @@ LMLogisticLossL2CV  <- function(X.mat, y.vec, fold.vec, penalty.vec){
   }
   
   fold.number=4
+  fold.split=sample(1:fold.number,length(fold.vec),replace=T)
   validation.loss.mat <-matrix(0, fold.number, max.iteration)
   train.loss.mat <- matrix(0, n.folds, max.iteration)#initial the condition
   for (i in fold.number){

@@ -1,4 +1,4 @@
-LMSquareLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh = 0.001,initial.weight.vec) {
+LMSquareLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh,initial.weight.vec) {
     if (!all(is.matrix(X.scaled.mat), is.numeric(X.mat))) {
       stop("X.mat must be a numeric matrix.")
     }
@@ -26,7 +26,7 @@ LMSquareLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh = 0.001,initial.
     while (1) {
       loss <- 2 * t(X.scaled.mat) %*%(X.scaled.mat %*% weight.vec - y.vec) + 2 * penalty * weight.vec
       
-      if (sum(abs(grad.cost.func)) <= opt.thresh) {
+      if (sum(t((abs(loss))%*%abs(loss)^2)) <= opt.thresh) {
         break
       } 
       else {
