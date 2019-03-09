@@ -5,7 +5,7 @@ int LMSquareLossIterations(
     const int n_features,
     const int max_iterations,
     const double step_size,
-    const double *w_mat
+    double *weight_mat
 );
 
 int LMLogisticLossIterations(
