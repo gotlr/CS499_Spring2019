@@ -1,3 +1,13 @@
+#' Linear model L2 regularization with squareloss
+#' @param x.scaled.mat a numeric matrix of size [n x p]
+#' @param y.vec a numeric matrix of length nrow(x.scaled.mat)
+#' @param penalty a non-negative numeric scalar
+#' @param opt.thresh a positive numeric scalar
+#' @param initial.weight.vec a numeric vector of size ncol(x.scaled.mat) 
+#' @return opt.weight the optimal weight vector of length ncol(X.scaled)
+
+
+
 LMSquareLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh,initial.weight.vec) {
     if (!all(is.matrix(X.scaled.mat), is.numeric(X.mat))) {
       stop("X.mat must be a numeric matrix.")
@@ -26,10 +36,10 @@ LMSquareLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh,initial.weight.v
     while (1) {
       loss <- 2 * t(X.scaled.mat) %*%(X.scaled.mat %*% weight.vec - y.vec) + 2 * penalty * weight.vec
       
-      if (sum(t((abs(loss))%*%abs(loss)^2)) <= opt.thresh) {
+      if (sum((abs(loss))^2) <= opt.thresh) {
         break
       } 
-      else {
+      else {loss
         weight.vec <- weight.vec - penalty * loss
       }
       
@@ -38,6 +48,15 @@ LMSquareLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh,initial.weight.v
     return(optimal.weight)
     
 }
+
+#' Linear model L2 regularization with logisticloss
+#' @param x.scaled.mat a numeric matrix of size [n x p]
+#' @param y.vec a numeric matrix of length nrow(x.scaled.mat)
+#' @param penalty a non-negative numeric scalar
+#' @param opt.thresh a positive numeric scalar
+#' @param initial.weight.vec a numeric vector of size ncol(x.scaled.mat) 
+#' @return opt.weight the optimal weight vector of length ncol(X.scaled)
+
 
 LMLogisticLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh = 0.01,initial.weight.vec) {
   if (!all(is.matrix(X.mat), is.numeric(X.mat))) {
@@ -71,7 +90,7 @@ LMLogisticLossL2 <-function(X.scaled.mat,y.vec,penalty,opt.thresh = 0.01,initial
   while (1) {
     loss <- t(x.scaled) %*% (sigmoid(x.scaled %*% w.mat[, dim(w.mat)[2]] )-y.vec) + 2 * penalty * weight.vec
     
-    if (sum(t((abs(loss))%*%abs(loss)^2)) <= opt.thresh) {
+    if (sum((abs(loss))^2) <= opt.thresh) {
       break
     } 
     else {
