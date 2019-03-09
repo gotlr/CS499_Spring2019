@@ -12,23 +12,36 @@ void linear_models_interface(
     const double *w_mat
 ){
   // Test LM__LossIterations
-  // Square Loss
-  if( max_iterations > 1 ){
+    // Square Loss
+  if( max_iterations < 1 || max_iterations == 1){
+    error("ERROR: Max iterations needs to be greater than 1.");
+  }else if(step_size <= 1){
+    error("ERROR: Step size must be greater than 1.");
+  }else{
     int status = LMSquareLossIterations(
       X_mat,
       y_vec,
       n_observations,
       n_features,
       max_iterations,
-      step_size,
-      w_mat);
-  }else{
-    error("ERROR: Max iterations needs to be greater than 1.");
+      step_size);
   }
   
   
-  // Logistic Loss
-  
+    // Logistic Loss
+  if( max_iterations < 1 || max_iterations == 1){
+      error("ERROR: Max iterations needs to be greater than 1.");
+  }else if(step_size <= 1){
+    error("ERROR: Step size must be greater than 1.");
+  }else{
+    int status = LMLogisticLossIterations(
+      X_mat,
+      y_vec,
+      n_observations,
+      n_features,
+      max_iterations,
+      step_size);
+    }
   
   // Test LM__LossEarlyStoppingCV
   // LMSquareLossEarlyStoppingCV

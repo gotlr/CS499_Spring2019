@@ -4,9 +4,7 @@ int LMSquareLossIterations(
     const int n_observations,
     const int n_features,
     const int max_iterations,
-    const double step_size,
-    const double *w_mat
-);
+    const double step_size);
 
 int LMLogisticLossIterations(
     const double *X_mat,
@@ -14,9 +12,7 @@ int LMLogisticLossIterations(
     const int n_observations,
     const int n_features,
     const int max_iterations,
-    const double step_size,
-    double *weight_mat
-);
+    const double step_size);
 
 void LMSquareLossEarlyStoppingCV(
     const double *X_mat,
