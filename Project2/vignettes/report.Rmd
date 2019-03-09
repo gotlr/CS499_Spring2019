@@ -4,7 +4,7 @@ author: "Samantha Earl, George Cadel-Munoz, Junyu Chen"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{Project 2: Linear Models}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -18,46 +18,26 @@ knitr::opts_chunk$set(
 
 Project 2 for CS 499 (Machine Learning). Demonstrate both linear models with early stopping regularization and linear models with L2 regularization.
 
-NOTE FOR GROUP: Leaving example vigenette info below for future reference. Delete examples when done with report.
 
-## Vignette Info
+Binary Classification: LMLogisticLossL2CV, LMLogisticLossEarlyStoppingCV
+```{r}
+data(spam, package="ElemStatLearn")
+#data(SAHeart, package="ElemStatLearn")
+data(zip.train, package="ElemStatLearn")
+is.01 <- zip.train[,1] %in% c(0,1)
+data.list <- list(
+  spam = list(
+    features=as.matrix(spam[4601, 57]),
+    labels = ifelse(spam$spam == "spam", 1, 0)),
+  #SAheart = list(
+  #  features=as.matrix(SAheart[462,9]),
+  #  labels = ifelse(SAheart$SAheart == "SAheart", 1, 0)),
+  zip.train = list(
+    features = zip.train[is.01:7291, 256],
+    labels=as.integer(zip.train[is.01, 1]))
+)
+n.folds <- 4
+results.list <- list()
+mean.loss.list <- list()
 
-Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
-
-## Styles
-
-The `html_vignette` template includes a basic CSS theme. To override this theme you can specify your own CSS in the document metadata as follows:
-
-    output: 
-      rmarkdown::html_vignette:
-        css: mystyles.css
-
-## Figures
-
-The figure sizes have been customised so that you can easily put two images side-by-side. 
-
-```{r, fig.show='hold'}
-plot(1:10)
-plot(10:1)
 ```
-
-You can enable figure captions by `fig_caption: yes` in YAML:
-
-    output:
-      rmarkdown::html_vignette:
-        fig_caption: yes
-
-Then you can use the chunk option `fig.cap = "Your figure caption."` in **knitr**.
-
-## More Examples
-
-You can write math expressions, e.g. $Y = X\beta + \epsilon$, footnotes^[A footnote here.], and tables, e.g. using `knitr::kable()`.
-
-```{r, echo=FALSE, results='asis'}
-knitr::kable(head(mtcars, 10))
-```
-
-Also a quote using `>`:
-
-> "He who gives up [code] safety for [code] speed deserves neither."
-([via](https://twitter.com/hadleywickham/status/504368538874703872))
