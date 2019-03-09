@@ -5,7 +5,7 @@ X.scaled.mat <- data.matrix(subset(prostate, select = -c(train, lpsa)))
 y.vec <- as.vector(data.matrix(subset(prostate, select = lpsa)))
 penalty <- 3L
 opt.thresh <- 0.001L
-initial.weight.vec <- as.vector(data.matrix(subset(prostate, select = lpsa)))
+initial.weight.vec <- rep(0,dim(x.scaled.mat)[1])
 
 
 test_that(

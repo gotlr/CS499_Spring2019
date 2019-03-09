@@ -3,8 +3,8 @@ library(linearModel)
 data(prostate, package = "ElemStatLearn")
 X.mat <- data.matrix(subset(prostate, select = -c(train, lpsa)))
 y.vec <- as.vector(data.matrix(subset(prostate, select = lpsa)))
-max.iteration <- 500L
-step.size <- 0.1L
+max.iteration <- 100L
+step.size <- 0.1
 
 
 test_that(
