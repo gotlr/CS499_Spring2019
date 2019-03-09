@@ -2,15 +2,15 @@
 #include "linear_models.h"
 
 // LM__LossIterations Errors
-  // Square Loss
+// Square Loss
 int LMSquareLossIterations(
-  const double *X_mat,
-  const double *y_vec,
-  const int n_observations,
-  const int n_features,
-  const int max_iterations,
-  const double step_size,
-  const double *w_mat){
+    const double *X_mat,
+    const double *y_vec,
+    const int n_observations,
+    const int n_features,
+    const int max_iterations,
+    const double step_size,
+    const double *w_mat){
   // Matrix Access
   Eigen::Map< Eigen::MatrixXd > inputs_mat(
       (double*)X_mat,
@@ -39,6 +39,6 @@ int LMSquareLossIterations(
   return 0;
 }
 
-  // Logistic Loss
+// Logistic Loss
 
 

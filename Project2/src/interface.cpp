@@ -12,35 +12,35 @@ void linear_models_interface(
     const double *w_mat
 ){
   // Test LM__LossIterations
-    // Square Loss
+  // Square Loss
   if( max_iterations > 1 ){
     int status = LMSquareLossIterations(
-        X_mat,
-        y_vec,
-        n_observations,
-        n_features,
-        max_iterations,
-        step_size,
-        w_mat);
+      X_mat,
+      y_vec,
+      n_observations,
+      n_features,
+      max_iterations,
+      step_size,
+      w_mat);
   }else{
     error("ERROR: Max iterations needs to be greater than 1.");
   }
   
   
-    // Logistic Loss
-    
+  // Logistic Loss
+  
   
   // Test LM__LossEarlyStoppingCV
-    // LMSquareLossEarlyStoppingCV
-    
-    // LMLogisticLossEarlyStoppingCV
+  // LMSquareLossEarlyStoppingCV
+  
+  // LMLogisticLossEarlyStoppingCV
 }
 
 // Package Information
 R_CMethodDef cMethods[] = 
   {
-    {"linear_models_interface", (DL_FUNC) &linear_models_interface, 6},
-    {NULL, NULL, 0}
+  {"linear_models_interface", (DL_FUNC) &linear_models_interface, 6},
+  {NULL, NULL, 0}
   };
 
 extern "C"{
